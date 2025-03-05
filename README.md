@@ -46,15 +46,9 @@ git push origin master
 ```
 ### …Create initial local repo commit to get original code back
 ```bash
-npm init
-```
-```bash
-npm add .
-```
-```bash
-git branch -M main
-```
-```bash
-git commit -m "first commit"
+- npm init
+- npm add .
+- git branch -M main
+- git commit -m "first commit"
 ```
 - so if you want revert back local changes it will be easy to get that back
