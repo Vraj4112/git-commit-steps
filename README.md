@@ -1,28 +1,25 @@
 # Git commit steps
 
-### Steps
-#### Step-01 
-- Initialise git repository inside your root folder.
+#### 01 Initialise git repository inside your root folder.
 ```bash
 git init
 ```
-#### Step-02
-- You have to write to add all files ready for git commit.
+
+#### 02 You have to write to add all files ready for git commit.
 ```bash
 git add .
 ```
-#### Step-03
-- You do have to commit it by writing the command.
+
+#### 03 You do have to commit it by writing the command.
 ```bash
 git commit -m "initial commit"
 ```
-#### Step-04
-- Then you have to add remote what you have copied.
+#### 04 Then you have to add remote what you have copied.
 ```bash
 git remote add origin https://github.com/Vraj4112/test-bloggingapp.git
 ```
-#### Step-05
-- Then make initial push.
+
+#### 05 Then make initial push.
 ```bash
 git push origin master
 ```
