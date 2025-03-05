@@ -2,19 +2,33 @@
 
 ### Steps
 #### Step-01 
-- initialise git repository inside your root folder by "git init"
+- Initialise git repository inside your root folder.
+```bash
+git init
+```
 #### Step-02
-- you have to write "git add ." to add all files ready for git commit
+- You have to write to add all files ready for git commit.
+```bash
+git add .
+```
 #### Step-03
-- then you have to commit it by writing the command "git commit -m "Initial Commit"".
+- You do have to commit it by writing the command.
+```bash
+git commit -m "initial commit"
+```
 #### Step-04
-- then you have to add remote what you have copied for example "git remote add origin https://github.com/Vraj4112/test-bloggingapp.git"
+- Then you have to add remote what you have copied.
+```bash
+git remote add origin https://github.com/Vraj4112/test-bloggingapp.git
+```
 #### Step-05
-- then make first push "git push origin master".
-
+- Then make initial push.
+```bash
+git push origin master
+```
 
 ### …or create a new repository on the command line
-```plaintext
+```bash
 - echo "# test923" >> README.md
 - git init
 - git add README.md
@@ -25,13 +39,13 @@
 ```
 
 ### …or push an existing repository from the command line
-```plaintext
+```bash
 - git remote add origin https://github.com/Vraj4112/test923.git
 - git branch -M main
 - git push -u origin main
 ```
 ### create initial local repo commit to get original code back
-```plaintext
+```bash
 npm init
 npm add .
 git branch -M main
