@@ -1,4 +1,4 @@
-# git-commit-steps
+# Git commit steps
 
 ### Steps
 #### Step-01 
@@ -44,11 +44,17 @@ git push origin master
 - git branch -M main
 - git push -u origin main
 ```
-### create initial local repo commit to get original code back
+### …Create initial local repo commit to get original code back
 ```bash
 npm init
+```
+```bash
 npm add .
+```
+```bash
 git branch -M main
+```
+```bash
 git commit -m "first commit"
 ```
 - so if you want revert back local changes it will be easy to get that back
