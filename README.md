@@ -1,5 +1,5 @@
 # Git commit steps
-
+---
 #### 01. Initialise git repository inside your root folder.
 ```bash
 git init
