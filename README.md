@@ -43,8 +43,8 @@ git push origin master
 ```
 ### …Create initial local repo commit to get original code back
 ```bash
-- npm init
-- npm add .
+- git init
+- git add .
 - git branch -M main
 - git commit -m "first commit"
 ```
